@@ -355,3 +355,13 @@ elif Name == 17:
     print('Wait for one more year')
 else:
     print("You can't vote" )
+
+
+
+user_number = int(input("Enter Your Number Here :"))
+if user_number <=5:
+    print(bin(user_number))
+elif user_number <=10:
+    print(hex(user_number))
+else:
+print(oct(user_number))
