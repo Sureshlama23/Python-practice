@@ -1,0 +1,15 @@
+array1 = [9,3,2,4,5,6]
+# print(sorted(array1))
+
+total = len(array1)
+
+for i in range(0,total):
+    # print(i)
+    for j in range(i+1,total):
+        # print(j)
+        if (array1[i] > array1[j]):
+            temp = array1[i]
+            array1[i] = array1[j]
+            array1[j] = temp
+print(array1)
+        
