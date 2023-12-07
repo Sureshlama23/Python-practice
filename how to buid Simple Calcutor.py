@@ -4,9 +4,9 @@ Simple Calculator
 -SUBTRACT
 *MULTIPLY
 /DIVIDE''')
-num1=int(input("Enter the value1:-"))
-num2=int(input("Enter the value2:-"))
-opr=input("Enter The Opr..")
+num1=float(input("Enter the value1:- "))
+num2=float(input("Enter the value2:- "))
+opr=input("Enter The Operator:- ")
 if opr=="+":
     print(num1+num2)
 elif opr=="-":
