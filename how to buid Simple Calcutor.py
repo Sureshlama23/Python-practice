@@ -1,4 +1,5 @@
 print('''
+Simple Calculator 
 +ADD
 -SUBTRACT
 *MULTIPLY
